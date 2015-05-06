@@ -40,7 +40,7 @@ header {
 }
 
 .logoText p {
-	
+
 }
 
 /* Header right - Navigation Bar */
@@ -82,4 +82,22 @@ h3 {
 	font-size: 16px;
 	margin-top: -15px;
 	color: #083451;
+}
+
+/* blog post main div */
+
+.sectionTwo {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.blogPost {
+	width: 600px;
+	float: left;
+}
+
+.sidebar {
+	width: 300px;
+	float: right;
 }
