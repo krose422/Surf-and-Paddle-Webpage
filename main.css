@@ -90,6 +90,7 @@ h3 {
 	width: 950px;
 	margin-right: auto;
 	margin-left: auto;
+	height: 740px;
 }
 
 .blogPost {
@@ -100,4 +101,45 @@ h3 {
 .sidebar {
 	width: 300px;
 	float: right;
+}
+
+/* footer */
+
+footer {
+	width: 1280px;
+	height: 400px;
+}
+
+
+.Image1 {
+	width: 320px;
+	height: 330px;
+	background-image: url(Images/article-image-1.jpg);
+	display: inline-block;
+	float: left;
+}
+
+.Image2 {
+	width: 320px;
+	height: 330px;
+	background-image: url(Images/article-image-2.jpg);
+	display: inline-block;
+	float:left ;
+}
+
+.Image3 {
+	width: 320px;
+	height: 330px;
+	background-image: url(Images/article-image-3.jpg);
+	display: inline-block;
+	float: left;
+
+}
+
+.Image4 {
+	width: 320px;
+	height: 330px;
+	background-image: url(Images/article-image-4.jpg);
+	display: inline-block;
+	float: left;
 }
