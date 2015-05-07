@@ -1,9 +1,17 @@
+body {
+	font-size: 62.5%;
+}
+
 /* Full Page */
 
 .globalContainer {
-	width: 1280px;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 /* Full Header */
@@ -14,7 +22,10 @@ header {
 	height: 521px;
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
+}
+
+.headerTop {
+	line-height: 80px;
 }
 
 /* header left */
@@ -22,7 +33,6 @@ header {
 .headerLeft {
 	float: left;
 	display: inline-block;
-	margin-top: 18px;
 }
 
 .logo {
@@ -35,7 +45,7 @@ header {
 
 .logoText {
 	color: #083451;
-	font-size: 16px;
+	font-size: 1.6em;
 	display: inline-block;
 }
 
@@ -48,7 +58,7 @@ header {
 nav {
 	font-family: 'Oswald', sans-serif;
 	color: #062F4B;
-	font-size: 18px;
+	font-size: 1.7em;
 	float: right;
 	margin-right: 170px;
 }
@@ -59,34 +69,38 @@ ul {
 
 ul li {
 	display: inline;
-	padding: 5px;
 }
 
 /* Center text in header */
 
 .middleText {
 	clear: both;
-	padding: 58px;
+	width: 70%;
+	margin: auto;
 }
 
 h1 {
 	color: white;
+	width: 100%;
 	text-align: center;
-	font-size: 90px;
+	font-size: 9em;
 	text-shadow: 1px 1px 1px #004A8E;
+	display: block;
 	margin-bottom: 0px;
 }
 
 h3 {
+	width: 100%;
 	text-align: center;
-	font-size: 16px;
-	margin-top: -15px;
+	font-size: 1.6em;
 	color: #083451;
+	display: block;
+	margin-top: 0px;
 }
 
 /* blog post main div */
 
-.sectionTwo {
+sectionTwo {
 	width: 950px;
 	margin-right: auto;
 	margin-left: auto;
@@ -113,7 +127,7 @@ footer {
 
 footer h2 {
 	text-align: center;
-	font-size: 70px;
+	font-size: 7em;
 	color: #083452;
 }
 
@@ -159,7 +173,7 @@ footer h2 {
 	background-color: #083452;
 	clear: both;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+	font-size: 1.3em;
 }
 
 .IronYardImage {

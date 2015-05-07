@@ -1,0 +1,170 @@
+body {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+.globalContainer {
+  width: 1280px;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+/* HEADER STYLE */
+
+header {
+  background-image: url(Images/header.jpg);
+}
+
+.headerContent {
+  width: 80%;
+  margin: auto;
+}
+
+.headerTop {
+
+}
+
+.headerLeft {
+  margin: auto;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+
+.logoText {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 1.7em;
+  display: inline-block;
+  float: left;
+}
+
+nav {
+  color: #062F4B;
+  font-size: 1.7em;
+  display: inline-block;
+  float: right;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+.middleText {
+
+}
+
+h1 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 9em;
+  text-shadow: 1px 1px 1px #004A8E;
+  clear: both;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.6em;
+  color: #083451;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+/* BODY MIDDLE STYLE */
+
+.sectionTwo {
+  width: 1280px;
+  margin: auto;
+}
+
+.innerTwo {
+  width: 80%;
+  margin: auto;
+}
+
+.blogPost {
+  float: left;
+}
+
+.blogPost h2 {
+  width: 60%;
+  color: #083452;
+}
+
+.sideBar {
+  width: 30%;
+  float: right;
+}
+
+.byline {
+
+}
+
+/* FOOTER STYLE */
+
+footer h2 {
+  text-align: center;
+  font-size: 7em;
+  color: #083452;
+}
+
+.image {
+  width: 25%;
+  float: left;
+  position: relative;
+}
+
+.image:after {
+  background: #083452;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .7;
+  content: " ";
+}
+
+.image:hover:after {
+  opacity: 0;
+}
+
+.finalFooter {
+  height: 97px;
+  width: 1280px;
+  line-height: 75px;
+  font-size: 1.3em;
+  color: #9FAFBC;
+  background-color: #083452;
+  clear: both;
+}
+
+.innerFooter {
+  width: 80%;
+  margin: auto;
+}
+
+.IronYardImage {
+  float: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.IronYardText {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.navItems {
+  float: right;
+  display: inline-block;
+}
