@@ -4,7 +4,7 @@ body {
 }
 
 .globalContainer {
-  width: 1280px;
+  width: 1300px;
   margin: auto;
 }
 
@@ -17,6 +17,7 @@ body {
 
 header {
   background-image: url(Images/header.jpg);
+  height: 522px;
 }
 
 .headerContent {
@@ -82,7 +83,7 @@ h3 {
 /* BODY MIDDLE STYLE */
 
 .sectionTwo {
-  width: 1280px;
+  width: 1300px;
   margin: auto;
 }
 
