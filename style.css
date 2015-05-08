@@ -88,7 +88,7 @@ h1 {
   font-size: 9.7em;
   text-shadow: 1px 1px 1px #004A8E;
   clear: both;
-  padding-top: 133px;
+  padding-top: 131px;
   margin-bottom: 0px;
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
@@ -105,9 +105,10 @@ h3 {
 
 .sectionTwo {
   width: 1300px;
-  height: 1000px;
+  height: 1010px;
   margin: auto;
   font-family: 'Open Sans', Helvetica, sans-serif;
+  border-bottom: 1px solid #E1E7EA;
 }
 
 .sectionTwo a {
@@ -126,6 +127,7 @@ h3 {
 .blogPost {
   float: left;
   width: 60%;
+  margin-top: 11px;
 }
 
 h2 {
@@ -336,13 +338,16 @@ blockquote {
 
 /* FOOTER STYLE */
 
+footer {
+  line-height: 0;
+}
+
 footer h2 {
   text-align: center;
-  font-size: 6.5em;
+  font-size: 6.3em;
   color: #083452;
-  margin-bottom: 27px;
-  border-top: 1px solid #E1E7EA;
-  padding-top: 21px;
+  /*margin-bottom: 27px;
+  padding-top: 0px;*/
   clear: both;
 }
 
@@ -352,7 +357,6 @@ footer h2 {
   width: 25%;
   float: left;
   position: relative;
-  line-height: 0;
 }
 
 .image:after {
@@ -370,7 +374,7 @@ footer h2 {
   opacity: 0;
 }
 
-.image:hover span {
+.image:hover h4 {
   color: white
 }
 
@@ -380,7 +384,7 @@ footer h2 {
 
 .imgtext1 {
   position: absolute;
-  top: 290px;
+  top: 75%;
   left: 5%;
   font-size: 3.5em;
   color: #083452;
@@ -388,7 +392,7 @@ footer h2 {
 
 .imgtext2 {
   position: absolute;
-  top: 290px;
+  top: 75%;
   left: 5%;
   font-size: 3.5em;
   color: #083452;
@@ -396,22 +400,24 @@ footer h2 {
 
 .imgtext3 {
   position: absolute;
-  top: 290px;
+  top: 52%;
   left: 5%;
   font-size: 3.5em;
   color: #083452;
   display: block;
+  word-wrap: break-word;
+  line-height: 50px;
 }
 
 .imgtext4 {
   position: absolute;
-  top: 290px;
+  top: 75%;
   left: 5%;
   font-size: 3.5em;
   color: #083452;
 }
 
-.image:hover span {
+.image:hover h4 {
   color: white
 }
 
