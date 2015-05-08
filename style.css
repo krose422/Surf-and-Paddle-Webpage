@@ -14,7 +14,7 @@ body {
 
 * {
   box-sizing: border-box;
- /* border: 1px solid red;*/
+  border: 1px solid red;
 }
 
 /* HEADER STYLE */
@@ -128,16 +128,16 @@ h2 {
   margin-bottom: 4px;
 }
 
-.byline {
+.byline img {
+  width: 4%;
   float: left;
 }
 
-.byline ul li img {
-  width: 9%;
-}
-
 .byline ul {
-  padding: 0px;
+  margin-top: 4px;
+  float: left;
+  padding-left: 2px;
+  font-size: 1.3em;
 }
 
 .annemarie {
@@ -158,11 +158,13 @@ article {
 }
 
 blockquote {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #106DB3;
   border-left: 2px solid #E1E7EA;
   padding-left: 15px;
   margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .buttons {
@@ -170,10 +172,14 @@ blockquote {
 }
 
 .sideBar {
-  width: 30%;
+  width: 25%;
   float: right;
 }
 
+.avatarInfo {
+  display: inline-block;
+  margin-top: 50px;
+}
 
 /* FOOTER STYLE */
 
