@@ -223,6 +223,8 @@ blockquote {
   text-decoration: none;
 }
 
+/* ADVERTISEMENT */
+
 .advertisement {
   display: inline-block;
   margin-top: 43px;
@@ -240,6 +242,8 @@ blockquote {
   width: 100%;
 }
 
+/* ABOUT SIDEBAR */
+
 .aboutSidebar {
   display: inline-block;
   float: left;
@@ -251,9 +255,7 @@ blockquote {
   font-size: 1.4em;
 }
 
-.buttons {
-
-}
+ /* SHARE BUTTONS */
 
 .buttons a {
   text-decoration: none;
@@ -278,18 +280,20 @@ blockquote {
   text-align: center;
   display: inline;
   float: left;
-  padding: 9px;
+  padding: 6px;
 }
 
 .btext {
   height: 100%;
   background: #A4B3BE;
   color: white;
-  padding: 10px;
+  padding: 7px;
   font-size: 1.2em;
   text-align: center;
   float: right;
 }
+
+/* SHARE LINK HOVER EFFECTS */
 
 .button1:hover .btext {
   background: #196EB1;
@@ -352,6 +356,42 @@ footer h2 {
   opacity: 0;
 }
 
+.footerImages {
+  position: relative;
+}
+
+.imgtext1 {
+  position: absolute;
+  top: 271px;
+  left: 1%;
+  font-size: 3.5em;
+  color: #083452;
+}
+
+.imgtext2 {
+  position: absolute;
+  top: 271px;
+  left: 26%;
+  font-size: 3.5em;
+  color: #083452;
+}
+
+.imgtext3 {
+  position: absolute;
+  top: 218px;
+  left: 51%;
+  font-size: 3.5em;
+  color: #083452;
+}
+
+.imgtext4 {
+  position: absolute;
+  top: 271px;
+  left: 76%;
+  font-size: 3.5em;
+  color: #083452;
+}
+
 .finalFooter {
   height: 97px;
   width: 1300px;
@@ -360,7 +400,6 @@ footer h2 {
   color: #9FAFBC;
   background-color: #083452;
   clear: both;
-
 }
 
 .innerFooter {
@@ -382,4 +421,5 @@ footer h2 {
 .navItems {
   float: right;
   display: inline-block;
+  font-family: 'Open Sans', Helvetica, sans-serif
 }
