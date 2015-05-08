@@ -14,7 +14,7 @@ body {
 
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 /* HEADER STYLE */
@@ -101,13 +101,21 @@ h3 {
 
 .sectionTwo {
   width: 1300px;
-  height: 800px;
+  height: 1000px;
   margin: auto;
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
+.sectionTwo a {
+  color: #A3B2BD;
+}
+
+.sectionTwo a:hover {
+  color: #106DB3;
+}
+
 .innerTwo {
-  width: 78%;
+  width: 75%;
   margin: auto;
 }
 
@@ -118,6 +126,7 @@ h3 {
 
 h2 {
   font-family: 'Oswald', Helvetica, sans-serif;
+  color: #106DB3;
 }
 
 .blogPost h2 {
@@ -145,7 +154,7 @@ h2 {
 }
 
 .gray {
-  color: #CFD7DE;
+  color: #A3B2BD;
 }
 
 .gray span {
@@ -155,10 +164,15 @@ h2 {
 article {
   float: left;
   font-size: 1.7em;
+  color: #545F66;
+}
+
+.p2 {
+  margin-bottom: 31px;
 }
 
 blockquote {
-  font-size: 2em;
+  font-size: 1.8em;
   color: #106DB3;
   border-left: 2px solid #E1E7EA;
   padding-left: 15px;
@@ -167,18 +181,74 @@ blockquote {
   margin-bottom: 0px;
 }
 
+.p3 {
+  margin-top: 27px;
+}
+
 .buttons {
   float: left;
 }
 
-.sideBar {
-  width: 25%;
+.sidebar {
+  width: 27%;
   float: right;
+  height: 100%;
 }
 
 .avatarInfo {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 83px;
+  text-align: center;
+  width: 100%;
+}
+
+.avatarInfo img {
+  height: 88px;
+}
+
+.authorName {
+  color: #106DB3;
+  font-size: 1.5em;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.social {
+  margin-top: 0px;
+  font-size: 1.2em;
+  color: #CFD7DE;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.advertisement {
+  display: inline-block;
+  margin-top: 43px;
+  text-align: center;
+  width: 100%;
+}
+
+.advertisement a {
+  display: block;
+  font-size: 1.4em;
+  float: right;
+}
+
+.advertisement img {
+  width: 100%;
+}
+
+.aboutSidebar {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+.aboutSidebar p {
+  color: #A3B2BD;
+  font-size: 1.4em;
 }
 
 /* FOOTER STYLE */
@@ -190,12 +260,14 @@ footer h2 {
   margin-bottom: 27px;
   border-top: 1px solid #E1E7EA;
   padding-top: 21px;
+  clear: both;
 }
 
 .image {
   width: 25%;
   float: left;
   position: relative;
+  line-height: 0;
 }
 
 .image:after {
@@ -206,7 +278,7 @@ footer h2 {
   right: 0;
   bottom: 0;
   opacity: .7;
-  content: " ";
+  content: "";
 }
 
 .image:hover:after {
@@ -225,7 +297,7 @@ footer h2 {
 }
 
 .innerFooter {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
