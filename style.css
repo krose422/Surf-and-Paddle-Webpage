@@ -251,6 +251,73 @@ blockquote {
   font-size: 1.4em;
 }
 
+.buttons {
+
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.button1 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.button2 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.button3 {
+  display: inline-block;
+}
+
+.bimage {
+  background-color: #5E686F;
+  text-align: center;
+  display: inline;
+  float: left;
+  padding: 9px;
+}
+
+.btext {
+  height: 100%;
+  background: #A4B3BE;
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  float: right;
+}
+
+.button1:hover .btext {
+  background: #196EB1;
+  color: white;
+}
+
+.button1:hover .bimage {
+  background: #0A3451;
+}
+
+.button2:hover .btext {
+  background: #196EB1;
+  color: white;
+}
+
+.button2:hover .bimage {
+  background: #0A3451;
+}
+
+.button3:hover .btext {
+  background: #196EB1;
+  color: white;
+}
+
+.button3:hover .bimage {
+  background: #0A3451;
+}
+
 /* FOOTER STYLE */
 
 footer h2 {
@@ -271,7 +338,7 @@ footer h2 {
 }
 
 .image:after {
-  background: #083452;
+  background: #196EB1;
   position: absolute;
   top: 0;
   left: 0;
