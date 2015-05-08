@@ -17,6 +17,10 @@ body {
   /*border: 1px solid red;*/
 }
 
+p {
+  line-height: 155%;
+}
+
 /* HEADER STYLE */
 
 header {
@@ -127,10 +131,11 @@ h3 {
 h2 {
   font-family: 'Oswald', Helvetica, sans-serif;
   color: #106DB3;
+  line-height: 116%;
 }
 
 .blogPost h2 {
-  font-size: 6em;
+  font-size: 6.2em;
   color: #083452;
   width: 100%;
   float: left;
@@ -163,12 +168,12 @@ h2 {
 
 article {
   float: left;
-  font-size: 1.7em;
+  font-size: 1.6em;
   color: #545F66;
 }
 
 .p2 {
-  margin-bottom: 31px;
+  margin-top: 40px;
 }
 
 blockquote {
@@ -177,20 +182,19 @@ blockquote {
   border-left: 2px solid #E1E7EA;
   padding-left: 15px;
   margin-left: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.p3 {
-  margin-top: 27px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .buttons {
   float: left;
 }
 
+/* SIDEBAR */
+
+
 .sidebar {
-  width: 27%;
+  width: 29%;
   float: right;
   height: 100%;
 }
@@ -244,15 +248,23 @@ blockquote {
 
 /* ABOUT SIDEBAR */
 
+.aboutSidebar h2 {
+  font-size: 1.9em;
+  margin-bottom: 0px;
+}
+
 .aboutSidebar {
   display: inline-block;
   float: left;
   width: 100%;
+  margin-top: 35px;
 }
 
 .aboutSidebar p {
   color: #A3B2BD;
   font-size: 1.4em;
+  line-height: 170%;
+  margin-top: 6px;
 }
 
  /* SHARE BUTTONS */
@@ -334,6 +346,8 @@ footer h2 {
   clear: both;
 }
 
+/* BOTTOM IMAGES */
+
 .image {
   width: 25%;
   float: left;
@@ -356,41 +370,52 @@ footer h2 {
   opacity: 0;
 }
 
+.image:hover span {
+  color: white
+}
+
 .footerImages {
   position: relative;
 }
 
 .imgtext1 {
   position: absolute;
-  top: 271px;
-  left: 1%;
+  top: 290px;
+  left: 5%;
   font-size: 3.5em;
   color: #083452;
 }
 
 .imgtext2 {
   position: absolute;
-  top: 271px;
-  left: 26%;
+  top: 290px;
+  left: 5%;
   font-size: 3.5em;
   color: #083452;
 }
 
 .imgtext3 {
   position: absolute;
-  top: 218px;
-  left: 51%;
+  top: 290px;
+  left: 5%;
   font-size: 3.5em;
   color: #083452;
+  display: block;
 }
 
 .imgtext4 {
   position: absolute;
-  top: 271px;
-  left: 76%;
+  top: 290px;
+  left: 5%;
   font-size: 3.5em;
   color: #083452;
 }
+
+.image:hover span {
+  color: white
+}
+
+/* FINAL FOOTER */
 
 .finalFooter {
   height: 97px;
@@ -416,6 +441,7 @@ footer h2 {
 .IronYardText {
   display: inline-block;
   margin-left: 10px;
+  margin-top: 25px;
 }
 
 .navItems {
