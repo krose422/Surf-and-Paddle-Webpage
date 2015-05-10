@@ -353,7 +353,41 @@ footer h2 {
 
 /* BOTTOM IMAGES */
 
-.image {
+.outer {
+  width: 325px;
+  height: 330px;
+  position: relative;
+  float: left;
+  line-height: 40px;
+}
+
+.overlay {
+  width: 325px;
+  height: 330px;
+  background-color: rgba(25, 110, 177, .8);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h4 {
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  color: #083452;
+  font-size: 3.1em;
+}
+
+.outer:hover .overlay {
+  background: none;
+}
+
+.outer:hover h4 {
+  color: white;
+}
+
+
+/*.image {
   width: 25%;
   float: left;
   position: relative;
@@ -419,7 +453,7 @@ footer h2 {
 
 .image:hover h4 {
   color: white
-}
+}*/
 
 /* FINAL FOOTER */
 
@@ -431,6 +465,7 @@ footer h2 {
   color: #9FAFBC;
   background-color: #083452;
   clear: both;
+  font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 .innerFooter {
@@ -453,5 +488,4 @@ footer h2 {
 .navItems {
   float: right;
   display: inline-block;
-  font-family: 'Open Sans', Helvetica, sans-serif
 }
