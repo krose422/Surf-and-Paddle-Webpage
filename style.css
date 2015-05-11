@@ -382,11 +382,11 @@ h4 {
   font-size: 3.1em;
 }
 
-.outer:hover .overlay {
+.bottomimage:hover .overlay {
   background: none;
 }
 
-.outer:hover h4 {
+.bottomimage:hover h4 {
   color: white;
 }
 
