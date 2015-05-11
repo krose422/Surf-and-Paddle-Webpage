@@ -61,7 +61,7 @@ nav {
   font-size: 1.8em;
   display: inline-block;
   float: right;
-  margin-right: 35px;
+  margin-right: 12px;
 }
 
 ul {
@@ -126,7 +126,7 @@ h3 {
 
 .blogPost {
   float: left;
-  width: 60%;
+  width: 61%;
   margin-top: 11px;
 }
 
@@ -242,6 +242,7 @@ blockquote {
   display: block;
   font-size: 1.4em;
   float: right;
+  margin-bottom: 0px;
 }
 
 .advertisement img {
@@ -253,6 +254,7 @@ blockquote {
 .aboutSidebar h2 {
   font-size: 1.9em;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .aboutSidebar {
@@ -302,6 +304,8 @@ blockquote {
   background: #A4B3BE;
   color: white;
   padding: 7px;
+  padding-right: 20px;
+  padding-left: 20px;
   font-size: 1.2em;
   text-align: center;
   float: right;
@@ -346,14 +350,14 @@ footer h2 {
   text-align: center;
   font-size: 6.3em;
   color: #083452;
-  /*margin-bottom: 27px;
-  padding-top: 0px;*/
+  margin-top: 30px;
+  margin-bottom: 40px;
   clear: both;
 }
 
 /* BOTTOM IMAGES */
 
-.outer {
+.bottomimage {
   width: 325px;
   height: 330px;
   position: relative;
